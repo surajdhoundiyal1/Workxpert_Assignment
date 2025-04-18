@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/navigation_dashboard">
+
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.example.assignmentbookxpert.fragment.LoginFragment"
+        tools:layout="@layout/fragment_login" >
+
+        <action
+            android:id="@+id/action_nav_login_to_dashboard"
+            app:destination="@+id/navigation_dashboard"/>
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_pdfView"
+        android:name="com.example.assignmentbookxpert.fragment.PDFViewFragment"
+        tools:layout="@layout/fragment_pdf_view" >
+
+        <action
+            android:id="@+id/action_nav_pdfView_to_login"
+            app:destination="@+id/navigation_login"/>
+
+        <action
+            android:id="@+id/action_nav_pdfView_to_dashboard"
+            app:destination="@+id/navigation_dashboard"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.assignmentbookxpert.dashboard.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard" >
+
+        <action
+            android:id="@+id/action_nav_dashboard_to_login"
+            app:destination="@+id/navigation_login"/>
+
+
+        <action
+            android:id="@+id/action_nav_dashboard_to_pdf_view"
+            app:destination="@+id/navigation_pdfView"/>
+
+        <action
+            android:id="@+id/action_nav_dashboard_to_camera"
+            app:destination="@+id/navigation_camera"/>
+
+        <action
+            android:id="@+id/action_nav_dashboard_to_apiCall"
+            app:destination="@+id/navigation_apiCall"/>
+
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.example.assignmentbookxpert.fragment.CameraFragment"
+        tools:layout="@layout/fragment_camera" >
+
+        <action
+            android:id="@+id/action_nav_camera_to_login"
+            app:destination="@+id/navigation_login"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_apiCall"
+        android:name="com.example.assignmentbookxpert.fragment.ApiCallFragment"
+        tools:layout="@layout/fragment_api_call" >
+
+        <action
+            android:id="@+id/action_nav_api_to_login"
+            app:destination="@+id/navigation_login"/>
+
+    </fragment>
+
+
+</navigation>

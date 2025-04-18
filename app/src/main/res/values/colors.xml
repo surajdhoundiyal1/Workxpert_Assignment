@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="exidePrimary">#FF8080</color>
+    <color name="text_colorGray">#292828</color>
+    <color name="exidePrimaryDark">#FD5D5D</color>
+    <color name="exidePink">#FFD9C0</color>
+    <color name="btn_shadow_gray">#4E4E4E</color>
+    <color name="colorGray">#6f6f6f</color>
+    <color name="exideRed">#ED1B24</color>
+    <color name="colorShadow">#E4E4E4</color>
+    <color name="custom_delivery">#1A2E5A</color>
+    <color name="light_pink">#F5B7B1</color>
+    <color name="colorGreenLight">#008577</color>
+    <color name="exideGreenLight">#CCEEBC</color>
+    <color name="lightestPink">#FFC0CB</color>
+    <color name="colorGreenDark">#00574B</color>
+    <color name="lightBlue">#33b8ff</color>
+    <color name="colorimageTint">#646464</color>
+    <color name="colorPrimary">#2BCC6F</color>
+    <color name="colorRed">#CB1111</color>
+    <color name="green">#1D6F42</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="text_colorBlue">#171796</color>
+</resources>
